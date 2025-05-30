@@ -26,16 +26,19 @@ function shuffleArray<T>(array: T[]): T[] {
 
 function createTeamsAndPairs(users: string[]) {
   const topics = [
-    "Social media is harmful to society",
+    "Should companies monitor employees' digital activity during work hours?",
     "Remote work is better than office work",
-    "Artificial intelligence will benefit humanity",
-    "Climate change should be our top priority",
-    "Video games have educational value",
-    "Space exploration is worth the cost",
-    "Cryptocurrency is the future of money",
-    "Fast food should be banned",
-    "Homework should be abolished",
-    "Zoos are ethical",
+    "Is it ethical to use AI to replace human jobs in the workplace?",
+    "Should companies have a mandatory diversity quota in hiring?",
+    "Should office birthdays be celebrated with cake or a day off?",
+    "Should office chairs be replaced with bean bags to boost creativity?",
+    "Should salaries be transparent within an organization?",
+    "Is it fair to expect employees to be ‘always available’ in a hyper-connected digital workplace?",
+    "Which is more important: Wi-Fi or free snacks?",
+    "Is Friday productivity a myth?",
+    "Who works harder: the office coffee machine or the interns?",
+    "Should ‘Googling stuff’ be a recognized professional skill on resumes?",
+    "Should there be a company award for 'Best Fake Smile During Meetings'?"
   ]
 
   const shuffledUsers = shuffleArray(users)
