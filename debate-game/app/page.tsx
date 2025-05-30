@@ -101,6 +101,15 @@ export default function Home() {
                 <Clock className="h-5 w-5 mt-0.5 flex-shrink-0" />
                 <span>Each debate lasts for 2 minutes with a countdown timer</span>
               </li>
+                <li className="flex items-start gap-3">
+                <Clock className="h-5 w-5 mt-0.5 flex-shrink-0" />
+                <span>Win the debate in 2 mins, you get 10 votes - The other person should agree to your statement</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Clock className="h-5 w-5 mt-0.5 flex-shrink-0" />
+                <span>If the debate isn't conclusive, we will have a voting. Respective votes will go to each person.</span>
+              </li>
+
               <li className="flex items-start gap-3">
                 <Trophy className="h-5 w-5 mt-0.5 flex-shrink-0" />
                 <span>Vote for each debater and see which team wins at the end</span>
